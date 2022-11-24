@@ -56,6 +56,7 @@
   border-radius: 10px;
   border: 10px solid #85929e;
   border-bottom: 30px solid #85929e;
+  padding: 1rem;
 }
 
 .pokedex-btn-home button {
@@ -66,6 +67,7 @@
 }
 
 .pokedex-btn-next button {
+  position: relative;
   height: 20px;
   width: 60px;
   border-radius:10px;
@@ -73,6 +75,7 @@
 }
 
 .pokedex-btn-back button {
+  position: relative;
   height: 20px;
   width: 60px;
   border-radius:10px;
@@ -100,3 +103,32 @@
   border: 5px solid #263444;
 }
 
+
+/* Mis estilos */
+
+.pokedex-btn-back button p{
+  color: #000;
+  position: absolute;
+  top: -5px;
+  left: 13px;
+}
+
+.pokedex_screen_container img {
+  width: 60%;
+}
+
+.pokedex-btn-next button p{
+  color: #000;
+  position: absolute;
+  top: -5px;
+  left: 13px;
+}
+
+.pokedex-info_container {
+  padding: .8rem;
+}
+.div_data p{
+  font-size: .7rem;
+  font-weight: 700;
+  color: #fff;
+}
