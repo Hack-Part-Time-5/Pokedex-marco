@@ -43,6 +43,8 @@ backBtn.addEventListener('click', () => {
         id -= 1
         let ruta_id = `https://pokeapi.co/api/v2/pokemon/${id}`
         peticion(ruta_id)
+    }else if (id == 0){
+        id == 1
     }
 })
 
